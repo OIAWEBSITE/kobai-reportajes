@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Reportajes de la Revista Kōbai del Centro del Japón, Universidad de los Andes. Historias que conectan Japón y Colombia." />
+  <meta name="theme-color" content="#f7f6f3" />
+  <title>Reportajes · Revista Kōbai</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topline"></div>
+  <header class="site-header wrap">
+    <a class="brand" href="https://centrodeljapontest.uniandes.edu.co/kobai/reportajes" aria-label="Revista Kōbai, Centro del Japón">
+      <span class="brand-symbol" aria-hidden="true">紅梅</span><span class="brand-text">REVISTA <strong>KŌBAI</strong><small>CENTRO DEL JAPÓN</small></span>
+    </a>
+    <nav aria-label="Navegación principal"><a href="https://oiawebsite.github.io/kobai-entrevistas/">Entrevistas ↗</a><a href="https://centrodeljapontest.uniandes.edu.co/kobai/reportajes" target="_blank" rel="noopener noreferrer">Sitio original ↗</a></nav>
+  </header>
+  <main>
+    <section class="hero wrap" aria-labelledby="main-title">
+      <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> REVISTA KŌBAI <span class="line"></span> HISTORIAS Y CULTURA</p><h1 id="main-title">Reportajes<span class="period">.</span></h1><p class="intro">Los reportajes en Kōbai exploran temas contemporáneos y variados sobre Japón desde una mirada multimedia, crítica y cercana, conectando lo cultural, lo social y lo cotidiano. Invitan a profundizar, reflexionar y descubrir nuevas perspectivas del Japón actual.</p><div class="hero-meta"><span><strong id="total-count">07</strong> reportajes</span><span class="separator">✳</span><span>Historias que conectan culturas</span></div></div>
+      <div class="hero-art" aria-hidden="true"><div class="japan-circle"></div><div class="hero-kanji">日<br>本</div><span class="hero-art-caption">KŌBAI / 紅梅</span></div>
+    </section>
+    <section class="catalog" aria-labelledby="catalog-title"><div class="wrap"><div class="section-head"><div><p class="section-kicker">EXPLORA NUESTRAS HISTORIAS</p><h2 id="catalog-title">Todas las publicaciones <span>✳</span></h2></div><p id="results-count" aria-live="polite">7 resultados</p></div>
+      <div class="toolbar"><label class="search"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.5"></circle><path d="m16 16 5 5"></path></svg><span class="sr-only">Buscar reportajes</span><input id="search" type="search" placeholder="Buscar reportajes..." autocomplete="off" /></label><label class="filter"><span>Filtrar por año</span><select id="year"><option value="all">Todos los años</option></select></label><label class="filter"><span>Ordenar por</span><select id="order"><option value="newest">Más recientes</option><option value="oldest">Más antiguos</option><option value="az">Título A–Z</option></select></label></div>
+      <div id="cards" class="cards" aria-live="polite"></div><div id="empty" class="empty" hidden><span>✳</span><h3>No encontramos reportajes con esos filtros.</h3><p>Prueba con otra palabra o elimina los filtros.</p><button id="reset" type="button">Limpiar búsqueda</button></div>
+    </div></section>
+  </main>
+  <footer class="footer"><div class="wrap footer-grid"><div><p class="footer-logo">KŌBAI <span>紅梅</span></p><p>Revista Kōbai · Centro del Japón<br />Universidad de los Andes</p></div><div class="footer-side"><p>Relatos que cruzan fronteras.</p><a href="mailto:centrodeljapon@uniandes.edu.co">centrodeljapon@uniandes.edu.co ↗</a></div></div><div class="wrap footer-bottom"><span>© <span id="year-now"></span> Centro del Japón · Universidad de los Andes</span><a href="https://centrodeljapontest.uniandes.edu.co/kobai/reportajes">Ver reportajes originales ↗</a></div></footer>
+</body>
+</html>
